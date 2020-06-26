@@ -1,3 +1,5 @@
 #.mat #exclude all mat files
 *.pdf #exclude all pdfs
-**/lib #exclude all lib files
+C:\Users\Siddharth_Patra\Documents\GitHub\andrew_ng_machine_learning\machine-learning-ex1\ex1\lib
+C:\Users\Siddharth_Patra\Documents\GitHub\andrew_ng_machine_learning\machine-learning-ex2\ex2\lib
+C:\Users\Siddharth_Patra\Documents\GitHub\andrew_ng_machine_learning\machine-learning-ex3\ex3\lib
