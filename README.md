@@ -14,3 +14,7 @@ To help me manage and maintain my learning. All code run in Octave.
 1-2/07/2020 - Finished ex4.
 
 8/07/2020 - Finished ex5.
+
+13/07/2020 - Finished ex6.
+
+18/07/2020 - Finished ex7.
