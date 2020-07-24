@@ -20,17 +20,17 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
-idx = X(1)-centroids(1);
+% idx = X(1)-centroids(1);
 
 disp('centroid dimensions');
 disp(size(centroids)); % 5 row, 11 col
 %K = 5
 
-for i=1:size(X)(1)
+for i=1:size(X,1)
   temp = ones(K,1); %creates k dimensional vector - will store squared error 
                     %losses for each centroid
   for j=1:K
-    temp(j)=(1/size(X)(2)) * sqrt(sum((X(i,:)-centroids(j,:)).^2)); %it's actualy square root of sum
+    temp(j)=(1/size(X,2)) * sqrt(sum((X(i,:)-centroids(j,:)).^2)); %it's actualy square root of sum
     %temp(j) = (1/size(X)(2)) * sum(sqrt((X(i,:)-centroids(j,:)).^2)); %sum of squared differences
   endfor
   disp('temp');
